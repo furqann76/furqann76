@@ -24,9 +24,6 @@ API-key authentication, request throttling, profiles and comments, plus an embed
 
 **[Portfolio](https://furqann76.github.io/Portfolio/)** — Single-page personal site (HTML/CSS/JS, no framework).
 
-<!-- TODO (Furqan): CogniFund has no public repo. If you want it shown, add one line here that you can stand behind, e.g.
-**CogniFund** — Donation/fundraising platform built during my internship at Cognisol (source not public). -->
-
 ---
 
 ## Tech stack
@@ -36,5 +33,3 @@ API-key authentication, request throttling, profiles and comments, plus an embed
 **Frontend:** React, Vite, Bootstrap
 **AI / LLM:** RAG pipelines, FAISS, sentence-transformers, Ollama (local models), Groq API
 **Tools:** Git, GitHub, Linux
-
-<!-- Add PostgreSQL, WebSockets/Django Channels, Docker, ChromaDB only once a public repo demonstrates them. -->
