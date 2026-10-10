@@ -10,6 +10,9 @@ Computer Science undergraduate at Virtual University of Pakistan (2026–2030) a
 
 ## Selected projects
 
+**[JobAgent](https://github.com/furqann76/JobAgent)** — AI job-search agent that finds roles from ~30 company job boards (Greenhouse and Lever APIs), scores each against your profile, and drafts tailored CVs and cover letters.
+Django 6 + DRF backend with PostgreSQL, Redis and Celery for scheduled discovery, React 19 + TypeScript (Vite) frontend. A local LLM (Qwen 2.5 7B via Ollama) parses job descriptions and CVs; matching, eligibility and ranking are deterministic and explainable. Documents are grounded in profile evidence retrieved with FAISS (RAG), with Pydantic-validated LLM output. Includes a Kanban application tracker and Playwright form-filling that never submits without confirmation.
+
 **[SkillDrill](https://github.com/furqann76/SkillDrill)** — Technical interview practice platform with AI-generated and AI-graded questions.
 Django + DRF backend, React + TypeScript (Vite) frontend. Questions and scenario grading run on a local LLM (Qwen 2.5 7B via Ollama); embeddings (nomic-embed-text) deduplicate the question bank. Includes progress analytics, a leaderboard, and a pytest suite.
 
